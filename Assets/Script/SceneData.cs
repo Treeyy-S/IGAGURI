@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SceneData : MonoBehaviour
+public class SceneDate : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static class SceneData
     {
-        
+        public static int score;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
+
